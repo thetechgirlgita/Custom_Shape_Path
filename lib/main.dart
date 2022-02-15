@@ -1,13 +1,13 @@
 import "package:flutter/material.dart" ;
 import 'dart:ui';
-import 'theme/colors.dart';
+
 
 
 Color colorOne = Colors.pink;
 Color colorTwo = Colors.black;
 Color colorThree = Colors.yellow;
 final appTheme = ThemeData(
-  primarySwatch : Colors.red,
+  primarySwatch : Colors.blue,
 );
 
 void main(){
