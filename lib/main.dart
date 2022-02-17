@@ -66,13 +66,13 @@ class CurvePainter extends CustomPainter{
     Path path = Path();
     Paint paint = Paint();
 
-    path.moveTo(0, size.height * 2.25);
+    path.moveTo(0, size.height * 1.25); // down curve
 
     path.quadraticBezierTo(size.width / 2.2, size.height / 0.5, size.width / 2,
-        size.height * 0.45);
+        size.height /2.7);
     path.quadraticBezierTo(
-        size.width / 3.5, size.height * 0.2, 0, size.height * 0.35);
-    path.close();
+        size.width / 4, size.height * 0.22, 0, size.height /1.5);//left top
+
     paint.color = colorThree;
     canvas.drawPath(path, paint);
   }
